@@ -32,6 +32,20 @@ body {
   --btn-active: #585b70;
 }
 
+/* Kevin's Dark Theme */
+#jv-root {
+  --bg: #141516;
+  --bg-toolbar: #212324;
+  --accent: #9b9b9b;
+  --text-muted: #7b7c83;
+  --border: #4c4d55;
+
+  --key: #fff;
+  --string: #fae474;
+  --number: #928ddf;
+  --null: #928ddf;
+}
+
 /* ── Theme: Light ── */
 #jv-root[data-theme="light"] {
   --bg: #ffffff;
@@ -166,6 +180,10 @@ body {
   position: relative;
   padding-left: 20px;
   border-radius: 2px;
+}
+
+#jv-tree > .jv-line {
+  padding-left: 0;
 }
 
 /* ── Current line highlight ── */
