@@ -263,7 +263,7 @@ export function setupHoverPath(
     if (pinned) return;
     const path = line.dataset.path;
     if (!path) return;
-    showPath(path, false);
+    // showPath(path, false);
   });
 
   tree.addEventListener("mouseout", (e) => {
